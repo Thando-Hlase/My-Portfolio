@@ -1,0 +1,56 @@
+
+/* Remove default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: white;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #60a5fa;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #d1d5db;
+}
+
+
+button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+#message {
+    margin-top: 20px;
+    color: #60a5fa;
+}
