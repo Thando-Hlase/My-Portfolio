@@ -1,23 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <title>Thando | Developer Portfolio</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>Hello, I'm a Future Software Engineer!</h1>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
 
-<p>Welcome to my personal portfolio website.</p>
+            <a href="#" class="logo">THANDO.</a>
 
-<button id="welcomeBtn">Say Hello</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-<p id="message"></p>
+        </nav>
+    </header>
 
-<script src="js/script.js"></script>
 
-   
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">HELLO, I'M THANDO</p>
+
+            <h1>
+                Building digital experiences
+                <span>one line of code at a time.</span>
+            </h1>
+
+            <p class="hero-description">
+                I'm an aspiring software engineer with an interest
+                in web development, programming and technology.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about-section">
+
+        <div class="section-heading">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Curious mind. Creative thinker. Future developer.</h3>
+
+                <p>
+                    I'm a university IT student learning web development,
+                    programming and software engineering. I also have
+                    an interest in data science and how data can be used
+                    to solve real-world problems.
+                </p>
+
+                <p>
+                    I enjoy exploring technology, building projects
+                    and continuously developing my technical skills.
+                    My goal is to become a well-rounded developer
+                    who can turn ideas into useful digital experiences.
+                </p>
+            </div>
+
+            <div class="about-highlight">
+                <div class="highlight-item">
+                    <span>01</span>
+                    <p>Always learning</p>
+                </div>
+
+                <div class="highlight-item">
+                    <span>02</span>
+                    <p>Building projects</p>
+                </div>
+
+                <div class="highlight-item">
+                    <span>03</span>
+                    <p>Thinking creatively</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+
+        <div class="section-heading">
+            <p class="section-label">WHAT I'M LEARNING</p>
+            <h2>My <span>Skills</span></h2>
+            <p class="section-subtitle">
+                Technologies and tools I'm exploring as I grow as a developer.
+            </p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <p>HTML · CSS · JavaScript · React</p>
+                <span class="skill-number">01</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Python · C++ · Object-Oriented Programming</p>
+                <span class="skill-number">02</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Science</h3>
+                <p>Python · Pandas · NumPy · Matplotlib</p>
+                <span class="skill-number">03</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>Databases & Systems</h3>
+                <p>SQL · Information Systems · Computer Networks</p>
+                <span class="skill-number">04</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+
+        <div class="section-heading">
+            <p class="section-label">WHAT I'VE BEEN BUILDING</p>
+            <h2>Featured <span>Projects</span></h2>
+            <p class="section-subtitle">
+                A collection of projects I'm building to put my knowledge into practice.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-top">
+                    <span class="project-category">WEB DEVELOPMENT</span>
+                    <span class="project-status">In progress</span>
+                </div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A personal website showcasing my background,
+                    technical interests and development journey.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <div class="project-top">
+                    <span class="project-category">WEB DEVELOPMENT</span>
+                    <span class="project-status">In progress</span>
+                </div>
+
+                <h3>Online Payment Integration</h3>
+
+                <p>
+                    Exploring how websites connect to payment
+                    providers and process online transactions securely.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <div class="project-top">
+                    <span class="project-category">DATA SCIENCE</span>
+                    <span class="project-status">Learning</span>
+                </div>
+
+                <h3>Data Analysis</h3>
+
+                <p>
+                    Practising data cleaning, exploration,
+                    statistical analysis and visualisation using Python.
+                </p>
+
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Matplotlib</span>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
